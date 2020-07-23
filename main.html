@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RDC-HOME</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Inria+Sans:wght@300&family=Open+Sans+Condensed:wght@300&family=Roboto:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
+    
+    
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">	
+<script src="js/jquery.min.js"></script>
+<script src="js/parallax.min.js"></script>
+
+    
+<script>
+window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
+</script>	
+</head>
+<body>
+	<!-----LOADER------->
+	<div class="loader">
+			
+			<video id="myvideo" loop autoplay="true" muted>
+				<source src="output.mp4"	type="video/mp4">
+				<source src="output.mp4"	type="video/webm">
+			</video>
+
+	</div>
+	
+	
+	<!-----TOP_HEADER------->
+		<div class="top-header">
+			<a href="main.html"><img src="https://instagram.fcok4-1.fna.fbcdn.net/v/t51.2885-15/s150x150/101213054_1173224443031475_8006113816929601948_n.jpg?_nc_ht=instagram.fcok4-1.fna.fbcdn.net&_nc_ohc=mdjVfZdxwWMAX-hVey8&oh=0ddaf0484dd42a56becbe2817a046cf2&oe=5F1FBA3E"></a>
+		</div>
+	
+	
+	<!---NAVIGATION--->
+	<nav id="topnav">
+	
+		<ul>
+			<li class="one"><a href="main.html">Home<i class="fa fa-home"></i></a></li>
+			<li><a href="grid.html">Gallery<i class="fa fa-picture-o"></i></a></li>
+            <li><a href="Family.html">Fam<i class="fa fa-users"></i></a></li>
+			<li><a href="about.html">About<i class="fa fa-book"></i></a></li>
+			<li><a href="contact.html">Contact<i class="fa fa-phone"></i></a></li>
+			
+		</ul>
+
+	</nav>
+	
+	
+	<!--menu-button--->
+	<img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" id="menubtn">
+	<script>
+				var menubtn=document.getElementById("menubtn");
+				var topnav=document.getElementById("topnav");
+				topnav.style.top="-1000px";
+					menubtn.onclick=function(){
+							if(topnav.style.top=="-1000px")
+							   {topnav.style.top="0px";}
+							else
+							   {topnav.style.top="-1000px";}
+											  }
+				
+	</script>
+	<!---Header--->
+	<section class="header-container">
+			<h1>"LET'S GO"</h1>
+			<br>
+	</section>
+
+	<div class="new-big" data-parallax="scroll" data-z-index="-100" data-image-src="https://www.ticketsolve.com/files/3215/8513/6574/Dance-Clan-3-LR-1.jpg" >
+		<h2>WHO ARE WE?</h2><br>
+		<p>We are a bunch of people who LOVE to dance.<br>Need we say more?</p><br>
+
+	    <img id="rdc-image" src="assets/rdc-inverted.png" >
+		<p class="rep">Our Home-Base:<br>
+		NSS College of Engineering,Palakkad.<br></p>
+		<img class="nss-logo" src="http://www.nssce.ac.in/wp-content/themes/nss/assets/img/logo%402x.png">
+		
+	</div>
+	
+
+
+	<section id="slider-and-content">
+			<div class="features-row">
+				<div class="features-col col-1">
+				   <h1>RESONANZ<br><span>DANCE </span><br>CREW</h1><br>
+					<p class="p1"><em class>“The job of feets is walking,
+						but their hobby is dancing.”<br>
+						Amit Kalantri</em>
+						<br><br><br>
+						The Resonanz is directed by Kay More and is based in Las Vegas, NV. Dancers in the crew range in age from 18-25 yrs. The Prodigy is internationally competitive in both youth and adult divisions. They won World of Dance San Diego in the youth division in 2014 and 15. They won World of Dance Las Vegas in the youth division in 2014. They have a gold, silver and bronze medal in the jr division at the USA hip hop dance Championships in 2011,12,and 15. They are also 3 time world semi- finalists at the World Hip Hop Dance Championships and were invited to compete at the first ever World of Dance World finals in 2015.</p>
+
+
+				</div>
+				<div class="features-col col-2">
+					 <div class="slider"></div>
+				</div>
+				<div class="features-col col-3">
+					<h2>BACKGROUND</h2>
+					<br><br>
+					<p class="p2">The idea of The Resonanz Dance Crew is to embody the concept of a prodigy.Each dancer tries individually and collectively as a crew to manifest the greatest possible potential in themselves- not only in the field of dance but also in life.</p>
+				</div>
+			</div> 
+</section>
+	
+	
+		<!-----HYSTORY------>
+	<section id="hystory">
+		<div class="hystory-row">
+			<div class="hystory-col-left">
+ 				<img src="https://images.unsplash.com/photo-1495926048989-432065eaae46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80">
+			</div>
+			<div class="hystory-col-right">
+                 <h1>HISTORY</h1><br>
+				<div class="under-line"></div>
+				<p> The Resonanz Dance Crew was founded in 2014 by it's current directors Kayla Mallari and Sonali Samarasena.  After choreographing and directing for several dance teams, (such as Common Ground, The Prototypes, and Reality Check), the two set out to create a crew of their own.
+
+The crew comprise of dancers from all over southern California who are trained in numerous genres of dance including jazz, ballet, tap and all foundations of hip-hop such as waacking and popping.  They made their debut and performed their first competitive set at the hip-hop competition Maxt Out XIII in November 2014.  That set placed 2nd in the Major Chor division and received special recognition awards from the judges.</p>
+			</div>	
+
+		</div>
+
+	
+	</section>
+	
+	
+		<!------Instructors------>
+	<section id="instructor">
+			<h2>OUR INSTRUCTORS</h2><br>
+				<div class="instructor-row">
+				
+					<div class="instructor-col">
+						<img src="https://images.unsplash.com/photo-1536977400-8c6f90c75df6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=624&q=80">
+						<h4 class="name1">Harper</h4>
+						<p>Harper began dancing at the age of 3 in his family’s dance studio. Throughout the years, he has enjoyed dancing the roles as the prince and king in “The Nutcracker” the king in “Alice in Wonderland” . He also was a member of Miller’s competition team, “Miller’s Dance Force” for 10 years. While on the competition team, he studied under professionals with Jen Hamilton, Leo Morimine, Matthew Peacock, Marguerite Derricks, Justin Jiles, Mike Minery, Donovan Helma, Tyne Stecklein, Cory Anderson and Meisha Gabriel. </p>
+					</div>
+					<div class="instructor-col">
+						<img src="https://images.unsplash.com/photo-1536936812-5cf0e7b62160?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80">
+						<h4 class="name2">William</h4>
+						<p>Since the age of three, William has been dancing under the direction of his family operated dance studio in Aurora, CO. He currently continues his education through multiple dance conventions and tap festivals throughout the year. Donovan teaches and choreographs for multiple competitive studios in the Denver metro area and across the United States. He has performed on a Monday Night Football halftime show with the Big Bad Voodoo Daddy and for Montreal’s Danse Encore International Festival in a production by Tap’d Out.</p>
+					</div>
+					
+					<div class="instructor-col">
+						<img src="https://images.unsplash.com/photo-1583781884006-cfb2e4813c0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80">
+					 	<h4 class="name3">Evelyn</h4>
+						<p>Evelyn began studying dance at the age of 4 at Dance Unlimited in Oceanside, CA. She trained in ballet, tap, jazz, contemporary, hip hop and break-dancing. She spent 14 years competing locally and nationally and won numerous top awards. Evelyn began her teaching career at the age of 16, teaching her first hip hop class at Dance Unlimited. Evelyn is a proud graduate of California State University, Long Beach as a liberal arts major with an emphasis in communication studies. She spent 10 years teaching at various studios and high schools in Orange County and Los Angeles.
+						</p>
+					</div>
+					
+					<div class="instructor-col">
+						<img src="https://images.unsplash.com/photo-1536811145290-bc394643e51e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+					 	<h4 class="name4">Ella</h4>
+						<p>
+							Ella, Colorado native, began her dance training at age seven. She trained in various styles, but not heavily, due to other sports. She attended the Denver School of the Arts (DSA), throughout middle and high school, where she trained much more seriously. Throughout high school she also trained at Miller’s Dance Studio in Aurora, CO, where she was also on a competitive dance team. Ella attended California Institute of the Arts, where she received her BFA in dance and choreography.
+						</p>
+					</div>
+				</div> 
+		</section>
+
+	<!------SOCIAl-ICONS----->
+   
+	<div class="social-icons">
+		    
+			
+		    <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPL_GLwGNo-dg9bSIDbTNHIdhgwCQyY2d9h&e=ATMSfgr4jIBZQb_ZOsSpzacs6kdU68UPRkR1vpIvuyxgPKxB4vlxtcQfFC0O0CuN6TKLwKXi1pgPzKYlCM-xHw&s=1"><i class="fa fa-youtube"></i></a>
+		
+			<a href="https://www.instagram.com/resonanzdancecrew/"><i class="fa fa-instagram"></i></a>	
+		
+		    <a href="https://www.facebook.com/Resonanz-Dance-Crew-RDC-723242134421699/"><i class="fa fa-facebook"></i></a>
+			
+		
+	</div>
+   
+    
+    <!-------G0-TOP------->
+     <a class="gotopbtn" href="#"><i class="fa fa-angle-double-up" ></i></a>
+
+	
+	
+	<!---swiper-CREW--->
+	<div class="swiper-title"><h1>OUR FAMILY</h1></div>
+	 <div class="swiper-container" data-parallax="scroll" data-z-index="-100" data-image-src="https://png.pngtree.com/thumb_back/fw800/background/20191025/pngtree-red-smoke-in-black-background-image_320082.jpg">
+
+		<div class="swiper-wrapper">
+		
+			<div class="swiper-slide">
+				<div class="imgbx">
+					<img src="https://assets.danceinforma.com/public/assets/mce/Chelsea_News_2/2015-World-MegaCrew-Silver-TheRoyalFamily-NewZealand.jpg">
+				</div>
+				<div class="details">
+			   		 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+			    </div>
+			</div>
+			
+			<div class="swiper-slide">
+				<div class="imgbx">
+					<img src="https://www.casaromantica.org/wp-content/uploads/2019/06/Culture_Shock_LA_website_new.jpg">
+				</div>
+				<div class="details">
+			   		 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+			    </div>
+			</div>
+			
+			<div class="swiper-slide">
+				<div class="imgbx">
+					<img src="https://imengine.prod.ghe.navigacloud.com/?uuid=912C3FE8-9AC6-4005-ABFA-1237354327CC&function=hardcrop&type=preview&source=false&q=100&width=600">
+				</div>
+				<div class="details">
+			   		 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+			    </div>
+			</div>
+			
+			<div class="swiper-slide">
+				<div class="imgbx">
+					<img src="https://66.media.tumblr.com/f143b71521a44347a0dbe0aa42a7a984/tumblr_o4qiyetU4R1u5ic2qo1_500.gifv">
+				</div>
+				<div class="details">
+			   		 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+			    </div>
+			</div>
+			
+			<div class="swiper-slide">
+				<div class="imgbx">
+					<img src="https://pbs.twimg.com/media/CqEOwYZVUAAEI7g.jpg">
+				</div>
+				<div class="details">
+			   		 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+			    </div>
+			</div>
+			
+			<div class="swiper-slide">
+				<div class="imgbx">
+					<img src="https://i.ytimg.com/vi/dvyM8mn6Iz4/maxresdefault.jpg">
+				</div>
+				<div class="details">
+			   		 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+			    </div>
+			</div>
+			
+			<div class="swiper-slide">
+				<div class="imgbx">
+		<img src="https://cdn-flightdec.userfirst.co.nz/uploads/sites/danz/files/News/SDNZrelease.jpg">
+				</div>
+				<div class="details">
+			   		 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+			    </div>
+			</div>
+			
+			
+			<div class="swiper-slide">
+				<div class="imgbx">
+	<img src="https://i.ytimg.com/vi/Rh83HT73lmQ/maxresdefault.jpg" >
+				</div>
+				<div class="details">
+			   		 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+			    </div>
+			</div>
+			
+			
+			<div class="swiper-slide">
+				<div class="imgbx">
+					<img src="https://i.ytimg.com/vi/fRBXwc98p7s/maxresdefault.jpg
+">
+				</div>
+				<div class="details">
+			   		 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+			    </div>
+			</div>
+			
+			
+	
+		</div>
+    <!-- Add Pagination -->
+    	<div class="swiper-pagination"></div>
+         
+         <!----Buttons-list------>
+    
+    <div  class="button-container">
+       <a href="Family.html#s1"><button class="btn btn-1">Season 1</button></a> 
+        <a href="Family.html#s2"><button class="btn btn-2">Season 2</button></a>        
+        <a href="#"><button class="btn btn-3">Season 3</button></a> 
+        <a href="#"><button class="btn btn-4">Season 4</button></a> 
+        <a href="#"><button class="btn btn-5">Season 5</button></a>
+        <a href="#"><button class="btn btn-5">Season 6</button></a>
+    </div>
+  	</div>
+<script src="js/swiper-bundle.min.js"></script>
+	 <script>
+		var swiper = new Swiper('.swiper-container', {
+		  effect: 'coverflow',
+		  grabCursor: true,
+		  centeredSlides: true,
+		  slidesPerView: 'auto',
+		  coverflowEffect: {
+			rotate: 0,
+			stretch:0,
+			depth: 500,
+			modifier:1,
+			slideShadows: true,
+		  },
+		  pagination: {
+			el: '.swiper-pagination',
+		  },
+		});
+  </script>
+	
+    
+	<section id="footer">
+				<div class="footer-container">
+					<div class="links">
+						<a href="#">Faq</a>
+						<a href="about.html">About</a>
+						<a href="contact.html">Contact</a>
+						<a href="#">Terms &amp Conditions</a>
+						<a href="#">Help</a>
+					</div>
+					
+					
+					<img src="https://instagram.fcok4-1.fna.fbcdn.net/v/t51.2885-15/s150x150/101213054_1173224443031475_8006113816929601948_n.jpg?_nc_ht=instagram.fcok4-1.fna.fbcdn.net&_nc_ohc=mdjVfZdxwWMAX-WKodQ&oh=07ea38077de9ec836fc5a21643d81e79&oe=5F1FBA3E" width="100">
+					
+					<p class="rights">All Rights Reserved © 2020 Resonanz Dance Crew</p>
+					<p class="made" >Designed with <i class="fa fa-heart"></i> by <a href="https://www.instagram.com/__.balu.__/">Balagopal M</a></p>
+				</div>
+			
+</section>
+</body>
+	
+</html>
